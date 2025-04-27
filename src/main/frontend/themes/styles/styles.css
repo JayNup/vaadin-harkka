@@ -1,0 +1,64 @@
+html {
+    --lumo-primary-color: #4f46e5; /* Sinertävä pääväri */
+    --lumo-primary-text-color: white;
+    --lumo-error-color: #dc2626; /* Punainen virheväri */
+    --lumo-success-color: #16a34a; /* Vihreä onnistumisväri */
+
+    font-family: 'Inter', 'Roboto', sans-serif;
+    background-color: #f9fafb;
+    color: #111827;
+}
+
+vaadin-button {
+    background-color: var(--lumo-primary-color);
+    color: var(--lumo-primary-text-color);
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+vaadin-button:hover {
+    background-color: #4338ca; /* Tummempi hover-väri */
+}
+
+vaadin-text-field,
+vaadin-combo-box,
+vaadin-date-picker {
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 4px;
+}
+
+vaadin-grid {
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+}
+
+vaadin-grid::part(header-cell) {
+    background-color: #e0e7ff;
+    font-weight: 700;
+    color: #1e3a8a;
+}
+
+vaadin-grid::part(row) {
+    background-color: white;
+}
+
+vaadin-grid::part(odd-row) {
+    background-color: #f3f4f6; /* Raidallinen tausta */
+}
+
+vaadin-notification-card {
+    border-radius: 8px;
+    background-color: #d1fae5;
+    color: #065f46;
+    font-weight: 600;
+}
+
+vaadin-dialog-overlay {
+    border-radius: 12px;
+}
