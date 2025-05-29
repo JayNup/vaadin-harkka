@@ -6,7 +6,7 @@ import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.router.Route;
-import org.hohoho.cheer.NavBar;
+import org.hohoho.cheer.component.NavBar;
 import org.hohoho.cheer.model.Hobby;
 import org.hohoho.cheer.repository.HobbyRepository;
 

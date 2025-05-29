@@ -15,6 +15,12 @@ import java.time.Clock;
 public class Application implements AppShellConfigurator {
 
     public static void main(String[] args) {
+        // Remove the invalid Native.cleanup() call
+        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
+            // Optionally log shutdown events or perform other cleanup tasks
+            System.out.println("Application is shutting down...");
+        }));
+
         SpringApplication.run(Application.class, args);
     }
 

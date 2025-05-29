@@ -1,9 +1,9 @@
-package org.hohoho.cheer;
+package org.hohoho.cheer.component;
 
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.router.RouterLink;
-import org.hohoho.cheer.taskmanagement.ui.PersonView;
+import org.hohoho.cheer.view.PersonView;
 import org.hohoho.cheer.view.HobbyView;
 import org.hohoho.cheer.view.MainView;
 
